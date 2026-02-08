@@ -1,11 +1,11 @@
 import { motion } from 'framer-motion';
 import ProductCard from './ProductCard';
-import tableImg from '../assets/table.png';
-import chairImg from '../assets/chair.png';
-import coffeeTableImg from '../assets/coffee-table.png';
-import bookshelfImg from '../assets/bookshelf.png';
-import benchImg from '../assets/bench.png';
-import deskImg from '../assets/desk.png';
+import tableImg from '../../assets/table.png';
+import chairImg from '../../assets/chair.png';
+import coffeeTableImg from '../../assets/coffee-table.png';
+import bookshelfImg from '../../assets/bookshelf.png';
+import benchImg from '../../assets/bench.png';
+import deskImg from '../../assets/desk.png';
 
 const Products = () => {
     const products = [

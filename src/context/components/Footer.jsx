@@ -2,13 +2,13 @@ import { motion } from 'framer-motion';
 
 const Footer = () => {
     return (
-        <footer className="bg-charcoal text-cream py-16">
+        <footer id="contact" className="bg-charcoal text-cream py-16">
             <div className="max-w-7xl mx-auto px-6">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
                     {/* Brand */}
                     <div className="col-span-1 md:col-span-2">
                         <h3 className="text-3xl font-bold mb-4 bg-gradient-to-r from-gold to-sage bg-clip-text text-transparent">
-                            Crafty Timber Creations
+                            Suzeraine Epoxy Smith
                         </h3>
                         <p className="text-cream/70 mb-6 leading-relaxed">
                             Bringing timeless craftsmanship to modern living.
@@ -33,7 +33,7 @@ const Footer = () => {
                     <div>
                         <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
                         <ul className="space-y-2">
-                            {['Home', 'Products', 'Gallery', 'About Us', 'Contact'].map((link) => (
+                            {['Home', 'Products', 'About Us', 'Contact'].map((link) => (
                                 <motion.li key={link} whileHover={{ x: 5 }}>
                                     <a href={`#${link.toLowerCase()}`} className="text-cream/70 hover:text-gold transition-colors">
                                         {link}
@@ -46,11 +46,23 @@ const Footer = () => {
                     {/* Contact */}
                     <div>
                         <h4 className="text-lg font-semibold mb-4">Contact</h4>
-                        <ul className="space-y-2 text-cream/70">
-                            <li>New York</li>
-                            <li>ESTD 2030</li>
-                            <li>info@craftytimber.com</li>
-                            <li>+1 (555) 123-4567</li>
+                        <ul className="space-y-3 text-cream/70">
+                            <li className="flex items-center gap-2">
+                                <span>📍</span>
+                                <span>Rajasthan, India</span>
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <span>📧</span>
+                                <a href="mailto:suzerainepoxysmith@gmail.com" className="hover:text-gold transition-colors hover:underline">
+                                    suzerainepoxysmith@gmail.com
+                                </a>
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <span>📞</span>
+                                <a href="tel:+919784842239" className="hover:text-gold transition-colors hover:underline">
+                                    +91 9784842239
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -58,7 +70,7 @@ const Footer = () => {
                 {/* Bottom Bar */}
                 <div className="border-t border-cream/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
                     <p className="text-cream/50 text-sm">
-                        © 2030 Crafty Timber Creations. All rights reserved.
+                        © 2026 Suzeraine Epoxy Smith. All rights reserved.
                     </p>
                     <div className="flex gap-6 text-sm text-cream/50">
                         <a href="#privacy" className="hover:text-gold transition-colors">Privacy Policy</a>

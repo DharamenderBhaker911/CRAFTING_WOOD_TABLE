@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { useCart } from '../context/CartContext';
+import { useCart } from '../CartContext';
 import { useState } from 'react';
 
 const Cart = () => {
@@ -26,7 +26,7 @@ const Cart = () => {
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 onClick={() => setIsCartOpen(!isCartOpen)}
-                className="fixed bottom-8 right-8 z-50 bg-gradient-to-r from-gold to-wood text-cream rounded-full p-5 floating-shadow hover:deep-shadow transition-all"
+                className="fixed bottom-8 left-8 z-50 bg-gradient-to-r from-gold to-wood text-cream rounded-full p-5 floating-shadow hover:deep-shadow transition-all"
             >
                 <div className="relative">
                     <svg

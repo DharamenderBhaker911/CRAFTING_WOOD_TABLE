@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { useCart } from '../context/CartContext';
+import { useCart } from '../CartContext';
 
 const ProductCard = ({ id, image, title, price, description, delay = 0 }) => {
     const [isHovered, setIsHovered] = useState(false);
