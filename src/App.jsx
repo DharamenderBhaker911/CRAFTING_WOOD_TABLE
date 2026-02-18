@@ -1,26 +1,30 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './context/components/Navbar';
-import Hero from './context/components/Hero';
-import About from './context/components/About';
-import Products from './context/components/Products';
 import Footer from './context/components/Footer';
-import Cart from './context/components/Cart';
-import WhatsAppFloat from './context/components/WhatsAppFloat';
-import { CartProvider } from './context/CartContext';
+import WhatsAppFloat from './components/WhatsAppFloat';
+import Home from './pages/Home';
+import ProductsPage from './pages/ProductsPage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
 import './index.css';
 
 function App() {
   return (
-    <CartProvider>
-      <div className="relative">
+    <Router>
+      <div className="relative min-h-screen flex flex-col">
         <Navbar />
-        <Hero />
-        <About />
-        <Products />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/products" element={<ProductsPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/contact" element={<ContactPage />} />
+          </Routes>
+        </main>
         <Footer />
-        <Cart />
         <WhatsAppFloat />
       </div>
-    </CartProvider>
+    </Router>
   );
 }
 
