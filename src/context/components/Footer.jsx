@@ -85,7 +85,11 @@ const Footer = () => {
                         <ul className="space-y-3 text-cream/70">
                             <li className="flex items-center gap-2">
                                 <span>📍</span>
-                                <span>Rajasthan, India</span>
+                                <span>Chandigarh, India</span>
+                            </li>
+                            <li className="flex items-center gap-2">
+                                <span>📍</span>
+                                <span>Chennai, India</span>
                             </li>
                             <li className="flex items-center gap-2">
                                 <span>📧</span>
