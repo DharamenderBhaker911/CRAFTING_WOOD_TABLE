@@ -59,8 +59,8 @@ const Navbar = () => {
                                     transition={{ delay: index * 0.1 }}
                                     whileHover={{ scale: 1.1 }}
                                     className={`font-medium text-sm tracking-wide transition-colors cursor-pointer ${location.pathname === item.path
-                                            ? 'text-gold'
-                                            : 'text-charcoal hover:text-gold'
+                                        ? 'text-gold'
+                                        : 'text-charcoal hover:text-gold'
                                         }`}
                                 >
                                     {item.name}
@@ -73,7 +73,7 @@ const Navbar = () => {
                     <div className="flex items-center gap-3 sm:gap-4">
                         {/* WhatsApp Icon */}
                         <motion.a
-                            href="https://wa.me/911234567890"
+                            href="https://wa.me/message/7IOS6GEQRVSLH1"
                             target="_blank"
                             rel="noopener noreferrer"
                             whileHover={{ scale: 1.1 }}
@@ -88,7 +88,7 @@ const Navbar = () => {
 
                         {/* Instagram Icon */}
                         <motion.a
-                            href="https://instagram.com/yourhandle"
+                            href="https://www.instagram.com/suzerain_epoxysmith?igsh=MXFheGwyNDM5NXc2ag=="
                             target="_blank"
                             rel="noopener noreferrer"
                             whileHover={{ scale: 1.1 }}
@@ -142,8 +142,8 @@ const Navbar = () => {
                                     <motion.div
                                         whileTap={{ scale: 0.95 }}
                                         className={`block px-4 py-3 rounded-lg font-medium transition-colors ${location.pathname === item.path
-                                                ? 'bg-gold/20 text-gold'
-                                                : 'text-charcoal hover:bg-charcoal/5'
+                                            ? 'bg-gold/20 text-gold'
+                                            : 'text-charcoal hover:bg-charcoal/5'
                                             }`}
                                     >
                                         {item.name}

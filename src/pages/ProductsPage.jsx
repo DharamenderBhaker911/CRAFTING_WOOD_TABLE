@@ -44,7 +44,34 @@ import image06 from '../assets/18k_design_bench/show_01.jpeg';
 import image07 from '../assets/18k_design_bench/show_02.jpeg';
 import image08 from '../assets/18k_design_bench/show_03.jpeg';
 import image09 from '../assets/18k_design_bench/show_04.jpeg';
+import image10 from '../assets/18k_design_bench/show_05.jpeg';
 
+// 
+import image11 from '../assets/Glass_image/G_B_01.jpeg';
+import image12 from '../assets/Glass_image/G_B_02.jpeg';
+import image13 from '../assets/Glass_image/G_B_03.jpeg';
+import image14 from '../assets/Glass_image/G_B_04.jpeg';
+import image15 from '../assets/Glass_image/G_B_05.jpeg';
+// 
+import image16 from '../assets/Hotel_image/Hotel_tb_01.jpeg';
+import image17 from '../assets/Hotel_image/Hotel_tb_02.jpeg';
+import image18 from '../assets/Hotel_image/Hotel_tb_03.jpeg';
+import image19 from '../assets/Hotel_image/Hotel_tb_04.jpeg';
+import image20 from '../assets/Hotel_image/Hotel_tb_05.jpeg';
+import image21 from '../assets/Hotel_image/Hotel_tb_06.jpeg';
+import image22 from '../assets/Hotel_image/Hotel_tb_07.jpeg';
+// 
+import image23 from '../assets/sine_glass/Glass_sine_table.jpeg'
+import image24 from '../assets/sine_glass/Glass_sine_table_1.jpeg'
+import image25 from '../assets/sine_glass/Glass_sine_table_2.jpeg'
+import image26 from '../assets/sine_glass/Glass_sine_table_3.jpeg'
+import image27 from '../assets/sine_glass/Glass_sine_table_4.jpeg'
+// 
+import image28 from '../assets/sine_glass/Sine_01.jpeg'
+import image29 from '../assets/sine_glass/Sine_02.jpeg'
+import image30 from '../assets/sine_glass/Sine_03.jpeg'
+import image31 from '../assets/sine_glass/Sine_04.jpeg'
+import image32 from '../assets/sine_glass/Sine_05.jpeg'
 // R1-R5 folder
 import R1 from '../assets/R1-R5/R1.jpeg';
 import R2 from '../assets/R1-R5/R2.jpeg';
@@ -112,7 +139,7 @@ const ProductsPage = () => {
         },
         {
             id: 8,
-            images: [image06, image07, image08, image09],
+            images: [image06, image07, image08, image09, image10],
             title: 'Crimson River Signature Dining Table',
             originalPrice: 25000,
             discount: 25,
@@ -122,7 +149,7 @@ const ProductsPage = () => {
             id: 9,
             images: [R1, R2],
             title: 'Obsidian Edge Contemporary Sideboard',
-            originalPrice: 15000,
+            originalPrice: 45000,
             discount: 25,
             description: 'Featuring a dramatic live-edge wood centerpiece sealed within deep black resin, paired with tinted glass side compartments'
         },
@@ -130,9 +157,41 @@ const ProductsPage = () => {
             id: 10,
             images: [R3, R4, R5],
             title: 'Crystal Stream Live-Edge Coffee Table',
-            originalPrice: 12000,
+            originalPrice: 32000,
             discount: 25,
             description: 'Three raw-edged hardwood slabs seamlessly suspended within a crystal-clear epoxy river.'
+        },
+        {
+            id: 11,
+            images: [image11, image12, image13, image14, image15],
+            title: 'Azure Coast Live-Edge Epoxy Table',
+            originalPrice: 32000,
+            discount: 25,
+            description: 'Crystal-clear ocean blue resin flowing alongside natural hardwood, detailed with realistic shoreline wave effects and embedded stones'
+        },
+        {
+            id: 12,
+            images: [image16, image17, image18, image19, image20, image21, image22],
+            title: 'Storm Vein Contemporary Dining Table',
+            originalPrice: 40000,
+            discount: 25,
+            description: 'A bold fusion of natural wood slab center framed with smoky grey resin edges, supported by sleek matte-black steel legs'
+        },
+        {
+            id: 13,
+            images: [image23, image24, image25, image26, image27],
+            title: 'Azure Coast Live-Edge Epoxy Table',
+            originalPrice: 35000,
+            discount: 25,
+            description: 'A stunning beach-inspired resin artwork featuring deep blue ocean waves blending into golden hardwood terrain.'
+        },
+        {
+            id: 14,
+            images: [image28, image29, image30, image31, image32],
+            title: 'Midnight Lagoon River Table',
+            originalPrice: 45000,
+            discount: 25,
+            description: 'A stunning beach-inspired resin artwork featuring deep blue ocean waves blending into golden hardwood terrain.'
         }
     ];
 

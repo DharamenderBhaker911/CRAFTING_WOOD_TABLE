@@ -24,7 +24,7 @@ const Footer = () => {
                         </p>
                         <div className="flex gap-4">
                             <motion.a
-                                href="https://wa.me/919784842239"
+                                href="https://wa.me/message/7IOS6GEQRVSLH1"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 whileHover={{ scale: 1.2, y: -3 }}
@@ -37,7 +37,7 @@ const Footer = () => {
                                 </svg>
                             </motion.a>
                             <motion.a
-                                href="https://instagram.com/yourhandle"
+                                href="https://www.instagram.com/suzerain_epoxysmith?igsh=MXFheGwyNDM5NXc2ag=="
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 whileHover={{ scale: 1.2, y: -3 }}
