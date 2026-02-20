@@ -2,6 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './context/components/Navbar';
 import Footer from './context/components/Footer';
 import WhatsAppFloat from './components/WhatsAppFloat';
+import InstaAppFloat from './components/InstaAppFloat';
 import Home from './pages/Home';
 import ProductsPage from './pages/ProductsPage';
 import AboutPage from './pages/AboutPage';
@@ -23,6 +24,7 @@ function App() {
         </main>
         <Footer />
         <WhatsAppFloat />
+        <InstaAppFloat />
       </div>
     </Router>
   );

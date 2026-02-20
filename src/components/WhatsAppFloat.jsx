@@ -8,9 +8,7 @@ const WhatsAppFloat = () => {
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            // We use fixed positioning and a high z-index
             className="fixed z-[9999] group"
-            // Inline style forces it to the right regardless of Tailwind/CSS settings
             style={{
                 bottom: '1.5rem',
                 right: '1.5rem',
