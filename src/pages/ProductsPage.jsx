@@ -293,6 +293,7 @@ const ProductsPage = () => {
             discount: 20,
             description: 'Handcrafted wooden bench with luxury polish.'
         },
+
     ];
 
     return (

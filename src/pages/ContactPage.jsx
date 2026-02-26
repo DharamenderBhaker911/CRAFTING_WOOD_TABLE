@@ -136,7 +136,7 @@ const ContactPage = () => {
                                     </div>
                                     <div>
                                         <h4 className="font-semibold text-charcoal text-sm sm:text-base">Phone</h4>
-                                        <p className="text-charcoal/70 text-sm sm:text-base">+91 1234567890</p>
+                                        <p className="text-charcoal/70 text-sm sm:text-base">+91 9784842239</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start gap-4">
@@ -147,7 +147,7 @@ const ContactPage = () => {
                                     </div>
                                     <div>
                                         <h4 className="font-semibold text-charcoal text-sm sm:text-base">Email</h4>
-                                        <p className="text-charcoal/70 text-sm sm:text-base">info@futurefurniture.com</p>
+                                        <p className="text-charcoal/70 text-sm sm:text-base">suzerainepoxysmith@gmail.com</p>
                                     </div>
                                 </div>
                                 <div className="flex items-start gap-4">
@@ -159,7 +159,7 @@ const ContactPage = () => {
                                     </div>
                                     <div>
                                         <h4 className="font-semibold text-charcoal text-sm sm:text-base">Address</h4>
-                                        <p className="text-charcoal/70 text-sm sm:text-base">123 Furniture Street,<br />New Delhi, India</p>
+                                        <p className="text-charcoal/70 text-sm sm:text-base">Chandigarh,<br />Punjab, India</p>
                                     </div>
                                 </div>
                             </div>
