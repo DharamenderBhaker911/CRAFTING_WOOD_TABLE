@@ -1,11 +1,17 @@
 import { motion } from 'framer-motion';
-import ProductCard from '../assets/Bench_01/ProductCard';
+import ProductCard from '../context/components/ProductCard';
 
 // Bench
 import Bench01 from '../assets/Bench_01/Bench_01.png';
 import Bench02 from '../assets/Bench_01/Bench_02.png';
 import Bench04 from '../assets/Bench_01/Bench_04.png';
 import Bench05 from '../assets/Bench_01/Bench_05.png';
+// 
+import Bench06 from '../assets/Bench_01/H1.jpeg';
+import Bench07 from '../assets/Bench_01/H2.jpeg';
+import Bench08 from '../assets/Bench_01/H3.jpeg';
+import Bench09 from '../assets/Bench_01/H4.jpeg';
+import Bench10 from '../assets/Bench_01/H5.jpeg';
 
 // Round
 import Round01 from '../assets/Round_table/Round_01.png';
@@ -32,6 +38,15 @@ import img03 from '../assets/images_18k_study_table/img_03.jpeg';
 import img04 from '../assets/images_18k_study_table/img_04.jpeg';
 import img05 from '../assets/images_18k_study_table/img_05.jpeg';
 
+// 
+import IM01 from '../assets/images_18k_study_table/IM_01.jpeg';
+import IM02 from '../assets/images_18k_study_table/IM_02.jpeg';
+import IM03 from '../assets/images_18k_study_table/IM_03.jpeg';
+import IM04 from '../assets/images_18k_study_table/IM_04.jpeg';
+import IM05 from '../assets/images_18k_study_table/IM_05.jpeg';
+import IM06 from '../assets/images_18k_study_table/IM_06.jpeg';
+import IM07 from '../assets/images_18k_study_table/IM_07.jpeg';
+
 // box_13k
 import box01 from '../assets/box_13k/box.jpeg';
 import box02 from '../assets/box_13k/box01.jpeg';
@@ -45,6 +60,10 @@ import image07 from '../assets/18k_design_bench/show_02.jpeg';
 import image08 from '../assets/18k_design_bench/show_03.jpeg';
 import image09 from '../assets/18k_design_bench/show_04.jpeg';
 import image10 from '../assets/18k_design_bench/show_05.jpeg';
+import image001 from '../assets/18k_design_bench/G_1.jpeg';
+import image002 from '../assets/18k_design_bench/G_2.jpeg';
+import image003 from '../assets/18k_design_bench/G_3.jpeg';
+import image004 from '../assets/18k_design_bench/G_4.jpeg';
 
 // 
 import image11 from '../assets/Glass_image/G_B_01.jpeg';
@@ -72,13 +91,38 @@ import image29 from '../assets/sine_glass/Sine_02.jpeg'
 import image30 from '../assets/sine_glass/Sine_03.jpeg'
 import image31 from '../assets/sine_glass/Sine_04.jpeg'
 import image32 from '../assets/sine_glass/Sine_05.jpeg'
-// R1-R5 folder
+
+// 
+import image33 from '../assets/ALL_Table/T1.jpeg'
+import image34 from '../assets/ALL_Table/T2.jpeg'
+import image35 from '../assets/ALL_Table/T3.jpeg'
+import image36 from '../assets/ALL_Table/T4.jpeg'
+import image37 from '../assets/ALL_Table/T5.jpeg'
+// 
+import image38 from '../assets/ALL_Table/T6.jpeg'
+import image39 from '../assets/ALL_Table/T7.jpeg'
+// 
+// import image40 from '../assets/ALL_Table/T8.jpeg'
+// import image41 from '../assets/ALL_Table/T9.jpeg'
+// import image42 from '../assets/ALL_Table/T10.jpeg'
+// // R1-R5 folder
+
 import R1 from '../assets/R1-R5/R1.jpeg';
 import R2 from '../assets/R1-R5/R2.jpeg';
 // alage image hai 
 import R3 from '../assets/R1-R5/R3.jpeg';
 import R4 from '../assets/R1-R5/R4.jpeg';
 import R5 from '../assets/R1-R5/R5.jpeg';
+// 
+import R6 from '../assets/R1-R5/ST_01.jpeg'
+import R7 from '../assets/R1-R5/ST_02.jpeg'
+import R8 from '../assets/R1-R5/ST_03.jpeg'
+
+// Office Table
+
+import office01 from '../assets/Office_Table/OF1.jpeg'
+import office02 from '../assets/Office_Table/OF2.jpeg'
+
 
 const ProductsPage = () => {
     const products = [
@@ -192,7 +236,63 @@ const ProductsPage = () => {
             originalPrice: 45000,
             discount: 25,
             description: 'A stunning beach-inspired resin artwork featuring deep blue ocean waves blending into golden hardwood terrain.'
-        }
+        },
+        {
+            id: 15,
+            images: [image001, image002, image003, image004],
+            title: 'Midnight Lagoon River Dining Table',
+            originalPrice: 41000,
+            discount: 25,
+            description: 'A stunning beach-inspired resin artwork featuring deep blue ocean waves blending into golden hardwood terrain.'
+        },
+        {
+            id: 16,
+            images: [Bench06, Bench07, Bench08, Bench09, Bench10],
+            title: 'Premium Glass Like Wood  Bench',
+            originalPrice: 26000,
+            discount: 20,
+            description: 'Handcrafted wooden bench with luxury polish.'
+        },
+        {
+            id: 17,
+            images: [IM01, IM02, IM03, IM04, IM05, IM06, IM07],
+            title: 'Premium Study Table Glass with Wood ',
+            originalPrice: 22000,
+            discount: 25,
+            description: 'Premium glass with wood study table.'
+        },
+        {
+            id: 18,
+            images: [R6, R7, R8],
+            title: 'Natural Epoxy Table for office and home',
+            originalPrice: 16000,
+            discount: 25,
+            description: 'Natural Epoxy Table for office and home.'
+        },
+        {
+            id: 19,
+            images: [image33, image34, image35, image36, image37],
+            title: 'Premium Glass Like Wood  Bench',
+            originalPrice: 26000,
+            discount: 20,
+            description: 'Handcrafted wooden bench with luxury polish.'
+        },
+        {
+            id: 20,
+            images: [image38, image39],
+            title: 'Premium Bench Look Like Glass',
+            originalPrice: 14000,
+            discount: 20,
+            description: 'Handcrafted wooden bench with luxury polish.'
+        },
+        {
+            id: 21,
+            images: [office01, office02],
+            title: 'Premium Office Table',
+            originalPrice: 40000,
+            discount: 20,
+            description: 'Handcrafted wooden bench with luxury polish.'
+        },
     ];
 
     return (
