@@ -1,56 +1,8 @@
 import { motion } from 'framer-motion';
 import ProductCard from './ProductCard';
-import tableImg from '../../assets/table.png';
-import chairImg from '../../assets/chair.png';
-import coffeeTableImg from '../../assets/coffee-table.png';
-import bookshelfImg from '../../assets/bookshelf.png';
-import benchImg from '../../assets/bench.png';
-import deskImg from '../../assets/desk.png';
 
 const Products = () => {
     const products = [
-        {
-            id: 1,
-            image: tableImg,
-            title: 'Floating Oak Table',
-            price: 1299,
-            description: 'Handcrafted dining table with elegant grain patterns and modern Scandinavian design.'
-        },
-        {
-            id: 2,
-            image: chairImg,
-            title: 'Levitating Walnut Chair',
-            price: 499,
-            description: 'Ergonomic chair with curved backrest, made from premium walnut wood.'
-        },
-        {
-            id: 3,
-            image: coffeeTableImg,
-            title: 'Live Edge Coffee Table',
-            price: 899,
-            description: 'Unique coffee table featuring natural live edge and beautiful wood grain.'
-        },
-        {
-            id: 4,
-            image: bookshelfImg,
-            title: 'Geometric Bookshelf',
-            price: 799,
-            description: 'Modern bookshelf with clean geometric design and ample storage space.'
-        },
-        {
-            id: 5,
-            image: benchImg,
-            title: 'Artisan Bench',
-            price: 649,
-            description: 'Rustic bench with live edge, perfect blend of traditional and modern.'
-        },
-        {
-            id: 6,
-            image: deskImg,
-            title: 'Minimalist Desk',
-            price: 1099,
-            description: 'Sleek home office desk with drawer, crafted from premium walnut.'
-        }
     ];
 
     return (
