@@ -13,6 +13,10 @@ import Bench08 from '../assets/Bench_01/H3.jpeg';
 import Bench09 from '../assets/Bench_01/H4.jpeg';
 import Bench10 from '../assets/Bench_01/H5.jpeg';
 
+import Bench11 from '../assets/Bench_01/CD1.jpeg';
+import Bench12 from '../assets/Bench_01/CD2.jpeg';
+import Bench13 from '../assets/Bench_01/CD3.jpeg';
+
 // ── Round / Coffee Table
 import Round01 from '../assets/Round_table/Round_01.png';
 import Round02 from '../assets/Round_table/Round_02.png';
@@ -264,11 +268,11 @@ const ALL_PRODUCTS = [
     },
     {
         id: 22,
-        images: [],
-        title: 'Tima is very  ansfkljnln',
+        images: [Bench11, Bench12, Bench13],
+        title: 'Premium Bench for Office',
         originalPrice: 10000,
         discount: 20,
-        description: ''
+        description: 'Good for office and home. Premium quality and durable. Perfect for any space.'
     }
 ];
 

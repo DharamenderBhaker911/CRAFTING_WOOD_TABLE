@@ -32,9 +32,9 @@ const Counter = ({ end, suffix = '', duration = 2 }) => {
 
 /* ── Product Carousel ── */
 const products = [
-    { img: T1, name: 'River Flow Dining Table', price: '₹45,000', tag: 'Bestseller' },
+    { img: T1, name: 'River Flow Dining Table', price: '₹32,000', tag: 'Bestseller' },
     { img: T3, name: 'Epoxy Resin Coffee Table', price: '₹28,000', tag: 'New Arrival' },
-    { img: T5, name: 'Live Edge Slab Table', price: '₹52,000', tag: 'Premium' },
+    { img: T5, name: 'Live Edge Slab Table', price: '₹25,000', tag: 'Premium' },
     { img: Bench, name: 'Artisan Bench', price: '₹18,000', tag: 'Popular' },
     { img: H2, name: 'Handcrafted Hall Table', price: '₹22,000', tag: 'Trending' },
     { img: H5, name: 'Studio Study Desk', price: '₹16,000', tag: 'Limited' },
