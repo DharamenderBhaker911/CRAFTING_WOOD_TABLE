@@ -116,7 +116,7 @@ import office02 from '../assets/Office_Table/OF2.jpeg';
 // ────────────────────────────────────────────────
 const ALL_PRODUCTS = [
     {
-        id: 1, category: 'Benches',
+        id: 15, category: 'Benches',
         images: [Bench01, Bench02, Bench04, Bench05],
         title: 'Premium Live-Edge Wood Bench',
         originalPrice: 20000, discount: 20,
@@ -214,7 +214,7 @@ const ALL_PRODUCTS = [
         description: 'Stunning ocean-wave resin artwork merging with live-edge hardwood. A centerpiece that starts conversations.',
     },
     {
-        id: 15, category: 'Dining Tables',
+        id: 1, category: 'Dining Tables',
         images: [image001, image002, image003, image004],
         title: 'Midnight Lagoon River Dining Table',
         originalPrice: 41000, discount: 25,
@@ -262,6 +262,14 @@ const ALL_PRODUCTS = [
         originalPrice: 40000, discount: 20,
         description: 'Large executive office table with premium wood finish and ample workspace. Command your space.',
     },
+    {
+        id: 22,
+        images: [],
+        title: 'Tima is very  ansfkljnln',
+        originalPrice: 10000,
+        discount: 20,
+        description: ''
+    }
 ];
 
 const CATEGORIES = ['All', ...Array.from(new Set(ALL_PRODUCTS.map(p => p.category)))];
