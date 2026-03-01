@@ -103,6 +103,14 @@ import image37 from '../assets/ALL_Table/T5.jpeg';
 import image38 from '../assets/ALL_Table/T6.jpeg';
 import image39 from '../assets/ALL_Table/T7.jpeg';
 
+// 
+import image40 from '../assets/images_18k_study_table/IM01.jpeg'
+import image41 from '../assets/images_18k_study_table/IM02.jpeg'
+import image42 from '../assets/images_18k_study_table/IM03.jpeg'
+import image43 from '../assets/images_18k_study_table/IM04.jpeg'
+import image44 from '../assets/images_18k_study_table/IM05.jpeg'
+import image45 from '../assets/images_18k_study_table/IM06.jpeg'
+
 // ── R1-R5
 import R1 from '../assets/R1-R5/R1.jpeg';
 import R2 from '../assets/R1-R5/R2.jpeg';
@@ -273,6 +281,20 @@ const ALL_PRODUCTS = [
         originalPrice: 10000,
         discount: 20,
         description: 'Good for office and home. Premium quality and durable. Perfect for any space.'
+    },
+    {
+        id: 23, category: 'Study Tables',
+        images: [image40, image41, image42],
+        title: 'Premium Glass & Wood Study Table',
+        originalPrice: 20000, discount: 25,
+        description: 'Modern study table with glass-wood fusion design — perfect for home offices and studios.',
+    },
+    {
+        id: 24, category: 'Study Tables',
+        images: [image43, image44, image45],
+        title: 'Premium Glass & Wood Study Table',
+        originalPrice: 15000, discount: 25,
+        description: 'Modern study table with glass-wood fusion design — perfect for home offices and studios.',
     }
 ];
 
