@@ -110,6 +110,27 @@ import image42 from '../assets/images_18k_study_table/IM03.jpeg'
 import image43 from '../assets/images_18k_study_table/IM04.jpeg'
 import image44 from '../assets/images_18k_study_table/IM05.jpeg'
 import image45 from '../assets/images_18k_study_table/IM06.jpeg'
+import image46 from '../assets/images_18k_study_table/IM07.jpeg'
+import image47 from '../assets/images_18k_study_table/IM08.jpeg'
+
+// 
+import image48 from '../assets/sine_glass/GL01.jpeg'
+import image49 from '../assets/sine_glass/GL02.jpeg'
+import image50 from '../assets/sine_glass/GL03.jpeg'
+
+// 
+import image51 from '../assets/ALL_Table/T8.jpeg'
+import image52 from '../assets/ALL_Table/T9.jpeg'
+import image53 from '../assets/ALL_Table/T10.jpeg'
+import image54 from '../assets/ALL_Table/T11.jpeg'
+// 
+import image55 from '../assets/ALL_Table/T12.jpeg'
+import image56 from '../assets/ALL_Table/T13.jpeg'
+import image57 from '../assets/ALL_Table/T14.jpeg'
+import image58 from '../assets/ALL_Table/T15.jpeg'
+import image59 from '../assets/ALL_Table/T16.jpeg'
+import image60 from '../assets/ALL_Table/T17.jpeg'
+import image61 from '../assets/ALL_Table/T18.jpeg'
 
 // ── R1-R5
 import R1 from '../assets/R1-R5/R1.jpeg';
@@ -247,7 +268,7 @@ const ALL_PRODUCTS = [
         description: 'Modern study table with glass-wood fusion design — perfect for home offices and studios.',
     },
     {
-        id: 18, category: 'Coffee Tables',
+        id: 18, category: 'Benches',
         images: [R6, R7, R8],
         title: 'Natural Epoxy Table',
         originalPrice: 16000, discount: 25,
@@ -275,7 +296,7 @@ const ALL_PRODUCTS = [
         description: 'Large executive office table with premium wood finish and ample workspace. Command your space.',
     },
     {
-        id: 22,
+        id: 22, category: 'Glass Table',
         images: [Bench11, Bench12, Bench13],
         title: 'Premium Bench for Office',
         originalPrice: 10000,
@@ -291,10 +312,33 @@ const ALL_PRODUCTS = [
     },
     {
         id: 24, category: 'Study Tables',
-        images: [image43, image44, image45],
-        title: 'Premium Glass & Wood Study Table',
+        images: [image43, image44, image45, image46, image47],
+        title: 'Premium Wood Study Table',
         originalPrice: 15000, discount: 25,
         description: 'Modern study table with glass-wood fusion design — perfect for home offices and studios.',
+    },
+    {
+        id: 25, category: 'Glass Table',
+        images: [image48, image49, image50],
+        title: 'Premium Glass & Wood Study Table',
+        originalPrice: 25000, discount: 25,
+        description: 'Modern study table with glass-wood fusion design — perfect for home offices and studios.',
+    },
+    {
+        id: 26, category: 'Benches',
+        images: [image51, image52, image53, image54],
+        title: 'Premium Bench for Office',
+        originalPrice: 36000,
+        discount: 20,
+        description: 'Good for office and home. Premium quality and durable. Perfect for any space.'
+    },
+    {
+        id: 27, category: 'Benches',
+        images: [image55, image56, image57, image58, image59, image60, image61],
+        title: 'Premium Bench for Office',
+        originalPrice: 22000,
+        discount: 20,
+        description: 'Good for office and home. Premium quality and durable. Perfect for any space.'
     }
 ];
 
